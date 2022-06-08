@@ -34,7 +34,7 @@ const MainNavbar = ({ toggle }) => {
             <h2
               style={{ color: "#3588A3", fontWeight: "600", fontSize: "27px" }}
             >
-              Logo
+              CMT
             </h2>
           </NavbarLogo1>
           <MobileIcon onClick={toggle}>
