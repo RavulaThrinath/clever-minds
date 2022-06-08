@@ -1,0 +1,70 @@
+.application {
+  width: 100%;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.application-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.groupfield {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.field {
+  width: 48%;
+  margin-bottom: 16px;
+}
+::placeholder {
+  font-size: 16px;
+}
+.btn-container {
+  width: 100%;
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.stb-btn {
+  padding: 15px 60px;
+  border: 1px solid #000000;
+  background: #000000;
+  outline: none;
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  transition: 0.3s ease;
+  margin: 30px 0;
+}
+
+.stb-btn:hover {
+  background: none;
+  color: #000000;
+}
+
+/* form-control form-control-lg */
+
+@media (max-width: 500px) {
+  .application {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .groupfield {
+    flex-direction: column;
+  }
+  .field {
+    width: 100%;
+  }
+  .form-control {
+    font-size: 15px !important;
+  }
+  .stb-btn {
+    padding: 11px 40px;
+    margin-bottom: 10px;
+  }
+}
